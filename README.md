@@ -1,5 +1,7 @@
 **VAD-VAE**
-This repo contains the PyTorch code for IEEE TAC accepted paper: "Disentangled Variational Autoencoder for Emotion Recognition in Conversations".
+This repo contains the PyTorch code for IEEE TAC accepted paper: "[Disentangled Variational Autoencoder for Emotion Recognition in Conversations](https://arxiv.org/abs/2305.14071)". The main structure of the VAD-VAE is as follows:
+
+![Image text](https://github.com/SteveKGYang/VAD-VAE/blob/main/figs/teaser.png)
 
 **Preparation**
 1. Set up the Python 3.7 environment
