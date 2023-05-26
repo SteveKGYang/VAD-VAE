@@ -37,3 +37,18 @@ python main.py --DATASET DailyDialog --model_checkpoint roberta-large --alpha 0.
 Then evaluate on DailyDialog:
 
 python main.py --DATASET DailyDialog --model_checkpoint roberta-large --alpha 0.8 --BATCH_SIZE 16 --kl_weight 0.001 --bart_model_checkpoint facebook/bart-large --mode eval --model_load_path ./model_save_dir/DailyDialog/model_state_dict_3.pth --SEED 42 --CUDA --mi_loss
+
+
+**Citation**
+
+Please cite our work as follows:
+
+@ARTICLE{10135132,
+  author={Yang, Kailai and Zhang, Tianlin and Ananiadou, Sophia},
+  journal={IEEE Transactions on Affective Computing}, 
+  title={Disentangled Variational Autoencoder for Emotion Recognition in Conversations}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TAFFC.2023.3280038}}
